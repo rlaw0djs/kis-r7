@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run R7 (full)",
+      "type": "shell",
+      "command": "./run_r7.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run R7 (quick test, 200)",
+      "type": "shell",
+      "command": "source ~/.bashrc && pip install -r requirements.txt && python kis_r7_pro_v4_2.py --top_k 60 --limit 200",
+      "problemMatcher": []
+    }
+  ]
+}
